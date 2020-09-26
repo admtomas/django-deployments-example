@@ -1,0 +1,27 @@
+li a {
+    color: green;
+}
+
+body {
+    background: hsla(0, 100%, 50%, 0.5) url("images/crop.jpg") no-repeat;
+    max-width: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: yellowgreen
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+img {
+    /* width: 100%; */
+    max-width: 400px;
+}

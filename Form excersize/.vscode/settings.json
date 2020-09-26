@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.languageServer": "Microsoft",
+    "python.pythonPath": "C:\\Users\\admto\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
+}

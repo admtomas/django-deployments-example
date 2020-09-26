@@ -1,0 +1,14 @@
+<!DOCTYPE html> {% extends 'forms/base.html' %} {% load custom_filters %} {% block body_block %}
+<h1>Here is OTHER page</h1>
+<a href="{% url 'forms:relative_page' %}">Relative page, click on me to see it</a>
+<br>
+<a href="{% url 'forms:template_urls' %}">Templatepage, click on me to see it</a>
+<h2 style="color:red;">Here we can see example of template inheritance!</h2>
+<h3 style="color:brown">All items inside JUMBOTRON are coming from other.html page while top green nav links from base.html page</h3>
+<h2>{{ data }}</h2>
+<h1 style="color:darkblue">Below we are testing custom filter 'cut' created inside custom_filters.py</h1>
+<h3>{{ text|cut:'Hello' }}</h3>
+<h3>{{ text|upper }}</h3>
+<h3>{{ text|add:'. And i am some added text' }}</h3>
+{% endblock %}
+<br>
